@@ -15,6 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <!-- GitHub 统计卡片 -->
+(https://github-readme-stats.vercel.app/api?username=qishu321&show_icons=true&theme=default&count_private=true&hide_border=true)
 [![qishu321’s GitHub Stats](https://github-readme-stats.vercel.app/api?username=qishu321&show_icons=true&theme=default&count_private=true&hide_border=true)]
 
 <!-- 最常用语言 卡片 -->
