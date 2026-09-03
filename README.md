@@ -16,6 +16,6 @@ Here are some ideas to get you started:
 -->
 <!-- GitHub 统计卡片 -->
 
-![qishu321 的 GitHub 统计](https://github-stats-extended.vercel.app/api?username=qishu321&show_icons=true&theme=default&hide_border=true)
+![qishu321 的 GitHub 统计](./profile/stats.svg)
 
-[![最常用语言](https://github-stats-extended.vercel.app/api/top-langs/?username=qishu321&layout=compact&theme=default&hide_border=true)](https://github.com/qishu321)
+[![最常用语言](./profile/top-langs.svg)](https://github.com/qishu321)
