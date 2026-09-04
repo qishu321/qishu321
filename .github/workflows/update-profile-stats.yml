@@ -2,8 +2,8 @@ name: Update profile stats cards
 
 on:
   schedule:
-    # 每天 UTC 03:00（北京时间 11:00）由 GitHub 托管 Runner 自动更新。
-    - cron: "0 3 * * *"
+    # 每 6 小时更新：北京时间 00:17、06:17、12:17、18:17（UTC 04:17、10:17、16:17、22:17）。
+    - cron: "17 4,10,16,22 * * *"
   workflow_dispatch:
 
 permissions:
