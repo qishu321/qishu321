@@ -19,3 +19,10 @@ Here are some ideas to get you started:
 ![qishu321 的 GitHub 统计](./profile/stats.svg)
 
 [![最常用语言](./profile/top-langs.svg)](https://github.com/qishu321)
+
+<!-- GitHub 贡献图贪吃蛇：根据访客的浅色/深色主题自动切换。 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="./profile/github-contribution-grid-snake.svg" />
+</picture>

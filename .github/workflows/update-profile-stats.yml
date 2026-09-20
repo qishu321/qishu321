@@ -34,10 +34,18 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - name: Commit refreshed cards
+      - name: Generate contribution snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/github-contribution-grid-snake.svg?palette=github-light
+            profile/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit refreshed profile assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git diff --cached --quiet || git commit -m "chore: refresh profile stats cards"
+          git diff --cached --quiet || git commit -m "chore: refresh profile assets"
           git push
